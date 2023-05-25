@@ -10,4 +10,24 @@
         android:name="com.example.doston.ui.fragment.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragmnet_home"/>
+    <fragment
+        android:id="@+id/fiveAgoFragment"
+        android:name="com.example.doston.ui.fragment.FiveAgoFragment"
+        android:label="FiveAgoFragment"
+        tools:layout="@layout/fragment_five_ago"/>
+    <fragment
+        android:id="@+id/fourAgoFragment"
+        android:name="com.example.doston.ui.fragment.FourAgoFragment"
+        android:label="FourAgoFragment"
+        tools:layout="@layout/fragment_four_ago"/>
+    <fragment
+        android:id="@+id/sixAgoFragment"
+        android:name="com.example.doston.ui.fragment.SixAgoFragment"
+        android:label="SixAgoFragment"
+        tools:layout="@layout/fragment_six_ago"/>
+    <fragment
+        android:id="@+id/threeAgoFragment"
+        android:name="com.example.doston.ui.fragment.ThreeAgoFragment"
+        android:label="ThreeAgoFragment"
+        tools:layout="@layout/fragment_three_ago"/>
 </navigation>
