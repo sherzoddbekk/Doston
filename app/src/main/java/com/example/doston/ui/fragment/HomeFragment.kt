@@ -5,12 +5,12 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.doston.R
-import com.example.doston.databinding.ActivityMainBinding
-import com.example.doston.databinding.FragmnetHomeBinding
+import com.example.doston.databinding.FragmentHomeBinding
+import viewBinding
 
-class HomeFragment : Fragment(R.layout.fragmnet_home) {
+class HomeFragment : Fragment(R.layout.fragment_home) {
 
-    private lateinit var binding: FragmnetHomeBinding
+    private val binding by viewBinding { FragmentHomeBinding.bind(it) }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initView()

@@ -9,7 +9,7 @@
         android:id="@+id/homeFragment"
         android:name="com.example.doston.ui.fragment.HomeFragment"
         android:label="HomeFragment"
-        tools:layout="@layout/fragmnet_home"/>
+        tools:layout="@layout/fragment_home"/>
     <fragment
         android:id="@+id/fiveAgoFragment"
         android:name="com.example.doston.ui.fragment.FiveAgoFragment"
