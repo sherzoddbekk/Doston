@@ -30,4 +30,16 @@
         android:name="com.example.doston.ui.fragment.ThreeAgoFragment"
         android:label="ThreeAgoFragment"
         tools:layout="@layout/fragment_three_ago"/>
+    <fragment
+        android:id="@+id/bearFragment"
+        android:name="com.example.doston.ui.fragment.forThreeAgo.BearFragment"
+        android:label="BearFragment" />
+    <fragment
+        android:id="@+id/dogFragment"
+        android:name="com.example.doston.ui.fragment.forThreeAgo.DogFragment"
+        android:label="DogFragment" />
+    <fragment
+        android:id="@+id/catFragment"
+        android:name="com.example.doston.ui.fragment.forThreeAgo.CatFragment"
+        android:label="CatFragment" />
 </navigation>
