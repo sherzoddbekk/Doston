@@ -12,7 +12,17 @@
         android:layout_marginHorizontal="15dp"
         android:orientation="vertical">
 
+        <TextView
+            android:text="Tabriklaymiz, vazani tugatdingiz"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
         <com.airbnb.lottie.LottieAnimationView
+            android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:lottie_autoPlay="true"
