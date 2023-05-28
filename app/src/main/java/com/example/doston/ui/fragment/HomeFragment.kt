@@ -25,6 +25,10 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         binding.tv5.setOnClickListener {
             findNavController().navigate(R.id.fiveAgoFragment)
         }
+        binding.tv6.setOnClickListener {
+            findNavController().navigate(R.id.sixAgoFragment)
+        }
+
     }
 
 }
