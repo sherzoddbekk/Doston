@@ -7,7 +7,7 @@ import android.os.Handler
 import com.example.doston.R
 
 class SplashActivity : AppCompatActivity() {
-    private val SPLASH_DELAY: Long = 1000 // Delay in milliseconds (3 seconds)
+    private val SPLASH_DELAY: Long = 4000 // Delay in milliseconds (3 seconds)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

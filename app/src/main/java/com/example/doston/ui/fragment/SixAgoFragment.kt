@@ -37,6 +37,10 @@ class SixAgoFragment:Fragment(R.layout.fragment_six_ago) {
         fillTests()
         testsAgeSixList.shuffle()
         initView()
+
+        binding.back.setOnClickListener {
+            findNavController().navigateUp()
+        }
     }
 
     private fun initView() {

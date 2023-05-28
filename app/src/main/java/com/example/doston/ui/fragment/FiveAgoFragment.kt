@@ -41,6 +41,9 @@ class FiveAgoFragment : Fragment(R.layout.fragment_five_ago) {
         reset()
         fillQuestions()
         initView()
+        binding.back.setOnClickListener {
+            findNavController().navigateUp()
+        }
     }
 
 

@@ -35,6 +35,9 @@ class FourAgoFragment:Fragment(R.layout.fragment_four_ago) {
         reset()
         fillQuestions()
         initView()
+        binding.back.setOnClickListener {
+            findNavController().navigateUp()
+        }
     }
 
 

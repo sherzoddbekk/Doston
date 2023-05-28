@@ -4,16 +4,26 @@
     android:background="#EDD491"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/back"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/back" />
     <TextView
         android:id="@+id/tv_find_info"
         android:gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:textSize="36sp"
         android:text="Vaqtni to'g'ri toping"
         android:textColor="#047809"
         android:textStyle="bold|italic"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
