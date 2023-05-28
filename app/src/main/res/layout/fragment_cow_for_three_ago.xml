@@ -23,7 +23,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
-                app:lottie_rawRes="@raw/cat" />
+                app:lottie_rawRes="@raw/cow" />
 
             <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/speaker"
@@ -53,7 +53,7 @@
                 android:id="@+id/ll"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
+                android:layout_marginHorizontal="35dp"
                 android:layout_marginTop="15dp"
                 android:orientation="horizontal"
                 app:layout_constraintTop_toBottomOf="@id/speaker">
@@ -66,31 +66,6 @@
                     android:background="@drawable/bg_box1"
                     android:fontFamily="@font/bold"
                     android:gravity="center"
-                    android:text="M"
-                    android:textColor="@color/white"
-                    android:textSize="30sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/bg_box2"
-                    android:fontFamily="@font/bold"
-                    android:gravity="center"
-                    android:text="U"
-                    android:textColor="@color/white"
-                    android:textSize="30sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="15dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/bg_box1"
-                    android:fontFamily="@font/bold"
-                    android:gravity="center"
                     android:text="S"
                     android:textColor="@color/white"
                     android:textSize="30sp"
@@ -99,12 +74,11 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="15dp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_box2"
                     android:fontFamily="@font/bold"
                     android:gravity="center"
-                    android:text="H"
+                    android:text="I"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold" />
@@ -117,7 +91,7 @@
                     android:background="@drawable/bg_box1"
                     android:fontFamily="@font/bold"
                     android:gravity="center"
-                    android:text="U"
+                    android:text="G"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold" />
@@ -130,10 +104,24 @@
                     android:background="@drawable/bg_box2"
                     android:fontFamily="@font/bold"
                     android:gravity="center"
-                    android:text="K"
+                    android:text="I"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_box1"
+                    android:fontFamily="@font/bold"
+                    android:gravity="center"
+                    android:text="R"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
             </LinearLayout>
 
 
